@@ -8,7 +8,7 @@ import makeNpmEnv from '../src';
 // environment
 const nativeNpmEnv = JSON.parse(execSync('npm run env --silent').toString());
 const ignore = [
-  // todo: not exact same
+  // todo: not exact same...
   'PATH',
   'SHLVL',
   '_',
@@ -18,6 +18,8 @@ const ignore = [
   'npm_package_description',
   'npm_package_readmeFilename',
   'npm_package_version',
+  'npm_package_author',
+  'npm_package_repository_url',
 ];
 
 // specs
