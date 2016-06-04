@@ -33,7 +33,7 @@ API
 * `makeNpmEnv(packageJson[, opts])` -> `Promise(env)`
 
   ```js
-  import makeNpmEnv from './';
+  import makeNpmEnv from 'make-npm-env';
   import data from './package.json';
 
   makeNpmEnv(data, (error, env) => console.log(env));
